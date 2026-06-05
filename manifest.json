@@ -1,0 +1,9 @@
+{
+  "id": "obsidian-folder-dashboard",
+  "name": "AZ Folder Dashboard",
+  "version": "1.0.0",
+  "minAppVersion": "0.15.0",
+  "description": "Exibe um dashboard com a estrutura de pastas do Vault",
+  "author": "Egon Alves",
+  "isDesktopOnly": false
+}

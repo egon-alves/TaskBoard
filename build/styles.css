@@ -1,0 +1,37 @@
+.folder-dashboard-container {
+  padding: 15px;
+  overflow-y: auto;
+}
+
+.dashboard-folder-list ul {
+  list-style-type: none;
+  padding-left: 15px;
+  margin: 5px 0;
+}
+
+.dashboard-folder-item {
+  margin-bottom: 8px;
+}
+
+.folder-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6px 10px;
+  background-color: var(--background-secondary);
+  border-radius: 4px;
+  border: 1px solid var(--border-color);
+}
+
+.folder-name {
+  font-weight: 500;
+  color: var(--text-normal);
+}
+
+.folder-count {
+  font-size: 0.8em;
+  color: var(--text-muted);
+  background-color: var(--background-primary);
+  padding: 2px 6px;
+  border-radius: 10px;
+}
