@@ -6,17 +6,18 @@ Dashboard visual de notas e tarefas por pasta. Visualize, filtre e gerencie suas
 
 ## Funcionalidades
 
-- **Cards por pasta** — exibe notas como cards organizados por pasta raiz do vault
-- **Filtro por status** — filtra por `#Novo`, `#EmAndamento` e `#Finalizado` via tags inline
-- **Avanço de status** — botão no card cicla o status e salva direto no arquivo
-- **Busca** — filtra cards por nome de arquivo com debounce de 250ms
-- **Contador** — exibe total de notas e tarefas abertas no topo
-- **Hide tasks** — toggle para ocultar/exibir a lista de checkboxes nos cards
-- **Aviso de arquivos sem título** — detecta arquivos com "Sem título" no nome e exibe alerta
-- **Novo Card** — cria arquivos com templates prontos para Atividade, Anotação ou Documentação
-- **Botão de refresh** — atualiza o dashboard sem sair da aba
-
+- **1 Cards por pasta** — exibe notas como cards organizados por pasta raiz do vault
+- **2 Filtro por status** — filtra por `#Novo`, `#EmAndamento` e `#Finalizado` via tags inline
+- **3 Avanço de status** — botão no card cicla o status e salva direto no arquivo
+- **4 Busca** — filtra cards por nome de arquivo com debounce de 250ms
+- **5 Contador** — exibe total de notas e tarefas abertas no topo
+- **6 Hide tasks** — toggle para ocultar/exibir a lista de checkboxes nos cards
+- **7 Novo Card** — cria arquivos com templates prontos para Atividade, Anotação ou Documentação
+- **8 Botão de refresh** — atualiza o dashboard sem sair da aba
+- **9 Aviso de arquivos sem título** — detecta arquivos com "Sem título" no nome e exibe alerta
 ---
+
+![alt text](image-2.png)
 
 ## Como funciona
 
@@ -54,6 +55,8 @@ O plugin substitui a tag diretamente no arquivo e aguarda o `metadataCache` atua
 ## Templates — Novo Card
 
 Ao criar um novo card pelo botão **+ Novo Card**, escolha o tipo:
+
+![alt text](image-1.png)
 
 **Atividade**
 ```markdown
@@ -136,7 +139,7 @@ taskboard/
 ├── package.json     # Dependências e scripts
 └── tsconfig.json    # Configuração TypeScript
 ```
-
+![alt text](image.png)
 ---
 
 ## Requisitos
