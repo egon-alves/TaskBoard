@@ -17,7 +17,7 @@ Dashboard visual de notas e tarefas por pasta. Visualize, filtre e gerencie suas
 - **9 Aviso de arquivos sem título** — detecta arquivos com "Sem título" no nome e exibe alerta
 ---
 
-![alt text](image-2.png)
+![alt text](./documents/image-2.png)
 
 ## Como funciona
 
@@ -56,7 +56,7 @@ O plugin substitui a tag diretamente no arquivo e aguarda o `metadataCache` atua
 
 Ao criar um novo card pelo botão **+ Novo Card**, escolha o tipo:
 
-![alt text](image-1.png)
+![alt text](./documents/image-1.png)
 
 **Atividade**
 ```markdown
@@ -139,7 +139,7 @@ taskboard/
 ├── package.json     # Dependências e scripts
 └── tsconfig.json    # Configuração TypeScript
 ```
-![alt text](image.png)
+![alt text](./documents/image.png)
 ---
 
 ## Requisitos
